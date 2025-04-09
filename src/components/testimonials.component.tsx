@@ -1,3 +1,7 @@
+import testImage1 from "../assets/testimonial1.png";
+import testImage2 from "../assets/testimonial2.png";
+import testImage3 from "../assets/testimonial3.png";
+
 export function Testiomonials() {
   return (
     <section className="bg-black py-16">
@@ -9,8 +13,8 @@ export function Testiomonials() {
           {/* Testimonial 1 */}
           <div className="rounded-lg p-8 shadow-md outline-1 transition-shadow hover:shadow-xl">
             <img
-              src="https://source.unsplash.com/100x100/?person"
-              alt="Person 1"
+              src={testImage1}
+              alt="John Doe"
               className="mx-auto mb-4 h-20 w-20 rounded-full"
             />
             <p className="mb-4 text-lg text-gray-100">
@@ -24,8 +28,8 @@ export function Testiomonials() {
           {/* Testimonial 2 */}
           <div className="rounded-lg p-8 shadow-md outline-1 transition-shadow hover:shadow-xl">
             <img
-              src="https://source.unsplash.com/100x100/?person"
-              alt="Person 2"
+              src={testImage2}
+              alt="Jane Smith"
               className="mx-auto mb-4 h-20 w-20 rounded-full"
             />
             <p className="mb-4 text-lg text-gray-100">
@@ -39,8 +43,8 @@ export function Testiomonials() {
           {/* Testimonial 3 */}
           <div className="rounded-lg p-8 shadow-md outline-1 transition-shadow hover:shadow-xl">
             <img
-              src="https://source.unsplash.com/100x100/?person"
-              alt="Person 3"
+              src={testImage3}
+              alt="Michael Lee"
               className="mx-auto mb-4 h-20 w-20 rounded-full"
             />
             <p className="mb-4 text-lg text-gray-100">
