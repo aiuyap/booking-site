@@ -2,12 +2,23 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.tsx";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  Navigate,
+  RouterProvider,
+} from "react-router-dom";
+import Condos from "./components/condos.component.tsx";
+import Home from "./components/home.component.tsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    children: [
+      { index: true, element: <Home /> },
+      { path: "condos", element: <Condos /> },
+      { path: "*", element: <Navigate to="/" replace /> },
+    ],
   },
 ]);
 
