@@ -1,7 +1,7 @@
 import heroImg from "../assets/hero.jpg";
 import { Button } from "./ui/button";
 
-function Hero() {
+export default function Hero() {
   return (
     <>
       <section
@@ -21,4 +21,3 @@ function Hero() {
     </>
   );
 }
-export default Hero;

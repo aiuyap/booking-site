@@ -2,7 +2,7 @@ import testImage1 from "../assets/testimonial1.png";
 import testImage2 from "../assets/testimonial2.png";
 import testImage3 from "../assets/testimonial3.png";
 
-export function Testiomonials() {
+export default function Testiomonials() {
   return (
     <section className="bg-black py-16">
       <div className="mx-auto max-w-7xl px-6 text-center">

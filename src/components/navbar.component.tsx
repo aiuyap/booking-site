@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 
-export function Navbar() {
+export default function Navbar() {
   return (
     <>
       <nav className="flex items-center justify-between bg-black p-4">

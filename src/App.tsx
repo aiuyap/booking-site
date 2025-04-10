@@ -1,6 +1,7 @@
+import Footer from "./components/footer.component";
 import Hero from "./components/hero.component";
-import { Navbar } from "./components/navbar.component";
-import { Testiomonials } from "./components/testimonials.component";
+import Navbar from "./components/navbar.component";
+import Testiomonials from "./components/testimonials.component";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar></Navbar>
       <Hero></Hero>
       <Testiomonials></Testiomonials>
+      <Footer></Footer>
     </>
   );
 }
