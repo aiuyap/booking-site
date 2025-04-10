@@ -11,7 +11,7 @@ import condo3 from "../assets/condobg3.jpg";
 
 export default function Condos() {
   return (
-    <div className="mb-14 flex h-screen items-center justify-center bg-black text-white">
+    <div className="flex h-screen items-center justify-center bg-black text-white">
       <Carousel className="mx-16 w-screen max-w-6xl">
         <CarouselContent>
           <CarouselItem

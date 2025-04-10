@@ -2,7 +2,7 @@ import { Mail, Phone, MapPin, Facebook, Linkedin, Github } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-red-800 bg-black py-10 text-gray-100">
+    <footer className="mt-10 border-t border-red-800 bg-black py-10 text-gray-100">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-4 md:grid-cols-3">
         {/* Logo and Description */}
         <div>
@@ -17,22 +17,22 @@ export default function Footer() {
           <h3 className="mb-3 text-xl font-semibold">Quick Links</h3>
           <ul className="space-y-2 text-sm">
             <li>
-              <a href="#" className="transition hover:text-white">
+              <a href="#" className="transition hover:text-red-500">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="transition hover:text-white">
+              <a href="#" className="transition hover:text-red-500">
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="transition hover:text-white">
+              <a href="#" className="transition hover:text-red-500">
                 Services
               </a>
             </li>
             <li>
-              <a href="#" className="transition hover:text-white">
+              <a href="#" className="transition hover:text-red-500">
                 Contact
               </a>
             </li>
