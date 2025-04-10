@@ -23,7 +23,7 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Button>Book Now</Button>
+            <Button className="hover:scale-105">Book Now</Button>
           </li>
         </ul>
       </nav>

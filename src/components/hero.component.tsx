@@ -15,7 +15,7 @@ export default function Hero() {
           <h1 className="text-center text-4xl font-bold text-white opacity-100 md:text-6xl">
             Book your next staycation with us.
           </h1>
-          <Button>Book Now</Button>
+          <Button className="hover:scale-105">Book Now</Button>
         </div>
       </section>
     </>
