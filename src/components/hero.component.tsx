@@ -12,7 +12,7 @@ export default function Hero() {
         }}
       >
         <div className="flex h-full w-full flex-col items-center justify-center gap-5 bg-black/70">
-          <h1 className="text-center text-4xl font-bold text-white opacity-100 md:text-6xl">
+          <h1 className="text-center text-4xl font-bold text-white md:text-6xl">
             Book your next staycation with us.
           </h1>
           <Button className="hover:scale-105">Book Now</Button>
