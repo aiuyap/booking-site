@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Condos from "./components/condos.component.tsx";
 import Home from "./components/home.component.tsx";
+import ViewCondo from "./components/viewcondo.component.tsx";
 
 const router = createBrowserRouter([
   {
@@ -16,8 +17,18 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { index: true, element: <Home /> },
-      { path: "condos", element: <Condos /> },
-      { path: "*", element: <Navigate to="/" replace /> },
+      {
+        path: "condos",
+        element: <Condos />,
+      },
+      {
+        path: "condos/:condoId",
+        element: <ViewCondo />,
+      },
+      {
+        path: "*",
+        element: <Navigate to="/" replace />,
+      },
     ],
   },
 ]);

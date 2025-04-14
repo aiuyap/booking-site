@@ -9,6 +9,7 @@ import condo1 from "../assets/condobg1.jpg";
 import condo2 from "../assets/condobg2.jpg";
 import condo3 from "../assets/condobg3.jpg";
 import { Button } from "./ui/button";
+import { Link } from "react-router-dom";
 
 export default function Condos() {
   return (
@@ -24,7 +25,9 @@ export default function Condos() {
                 <h1 className="text-3xl font-semibold text-white md:text-5xl lg:text-6xl">
                   Marco Polo Parkplace
                 </h1>
-                <Button className="hover:scale-105">View Info</Button>
+                <Link to="1">
+                  <Button className="hover:scale-105">View Info</Button>
+                </Link>
               </div>
             </div>
           </CarouselItem>
