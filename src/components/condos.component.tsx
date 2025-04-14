@@ -40,7 +40,9 @@ export default function Condos() {
                 <h1 className="text-3xl font-semibold text-white md:text-5xl lg:text-6xl">
                   The Rise at Monterrazas
                 </h1>
-                <Button className="hover:scale-105">View Info</Button>
+                <Link to="2">
+                  <Button className="hover:scale-105">View Info</Button>
+                </Link>
               </div>
             </div>
           </CarouselItem>
@@ -53,7 +55,9 @@ export default function Condos() {
                 <h1 className="text-3xl font-semibold text-white md:text-5xl lg:text-6xl">
                   Park Point Residences
                 </h1>
-                <Button className="hover:scale-105">View Info</Button>
+                <Link to="3">
+                  <Button className="hover:scale-105">View Info</Button>
+                </Link>
               </div>
             </div>
           </CarouselItem>
