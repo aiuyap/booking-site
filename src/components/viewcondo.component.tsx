@@ -7,11 +7,20 @@ function ViewCondo() {
       <section className="flex h-screen w-full items-center justify-center bg-black text-white">
         <div>
           {condoId === "1" ? (
-            <p>Condo 1</p>
+            <>
+              <h1>Marco Polo Parkplace</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                unde velit voluptatem optio repudiandae fuga amet, alias odit
+                reprehenderit ab sunt eligendi architecto dicta, nisi
+                repellendus dolorem tempore. Eum, id.
+              </p>
+              <p>Available Dates: </p>
+            </>
           ) : condoId === "2" ? (
-            <p>Condo 2</p>
+            <p>The Rise at Monterrazas</p>
           ) : condoId === "3" ? (
-            <p>Condo 3</p>
+            <p>Park Point Residences</p>
           ) : (
             <p>Condo not found</p>
           )}
